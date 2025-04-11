@@ -1,0 +1,42 @@
+/* Apply universal margin and padding reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font and body styling */
+body {
+  /* font-family: Arial, sans-serif; */
+  line-height: 1.6;
+}
+
+/* Add some basic styling for images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Ensure consistent anchor behavior */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input{
+  outline: none;
+}
+
+/* Optional: Add smoother transitions for hover effects */
+* {
+  transition: all 0.3s ease;
+}

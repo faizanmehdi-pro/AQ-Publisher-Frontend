@@ -1,0 +1,62 @@
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  nav button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav button:hover {
+    background-color: #0056b3;
+  }
+  
+  nav p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* PDF container */
+  .react-pdf__Document {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    margin-top: 10px;
+  }
+  
+  .react-pdf__Page__canvas {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+  }
+  
+.react-pdf__Page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+  
